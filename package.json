@@ -1,0 +1,25 @@
+{
+  "name": "ledger-co",
+  "version": "1.0.0",
+  "description": "coding challenge project",
+  "main": "index.js",
+  "repository": "https://github.com/asnazell/ledger-co",
+  "scripts": {
+    "install": "tsc geektrust.ts",
+    "start": "node geektrust.js",
+    "test": "jest --watch"
+  },
+  "author": "Assel",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.11",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
+}
